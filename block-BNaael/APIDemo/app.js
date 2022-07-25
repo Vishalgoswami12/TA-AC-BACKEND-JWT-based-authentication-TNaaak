@@ -10,7 +10,7 @@ require('dotenv').config();
 var v1indexRouter = require('./routes/v1index');
 var v1usersRouter = require('./routes/v1users');
 
-// Connecting To MongoDB
+// Connecting To MongoDB/
 mongoose.connect(
   'mongodb://localhost/demo2Api',
   { useNewUrlParser: true, useUnifiedTopology: true },
